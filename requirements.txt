@@ -1,0 +1,8 @@
+faster-whisper
+sounddevice
+scipy
+soundfile
+huggingface_hub
+ollama
+pytest
+piper-tts

@@ -1,0 +1,15 @@
+name: voice-agent
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - faster-whisper
+      - sounddevice
+      - scipy
+      - soundfile
+      - huggingface_hub
+      - ollama
+      - pytest
+      - piper-tts

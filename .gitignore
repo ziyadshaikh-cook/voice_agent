@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Conda / venv
+.conda/
+venv/
+env/
+
+# Project-generated audio and downloaded models (large, regenerable)
+audio.wav
+response.wav
+faster-whisper-base/
+*.onnx
+*.onnx.json
+
+# OS
+.DS_Store
+Thumbs.db
